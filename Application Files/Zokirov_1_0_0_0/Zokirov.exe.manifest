@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Zokirov.exe" version="1.0.0.0" publicKeyToken="641ed2ea4c02d0f5" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Iconka.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Zokirov" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Zokirov.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Zokirov.exe" size="463832">
+      <assemblyIdentity name="Zokirov" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+dICWGdc8J0oz7/56+RZIH3aAe4a7nJx9d6PrZi/xaU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Iconka.ico" size="189502">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>11Vf1paLHlLWbN4z3QDMSBqMW85qbK6lUwVCYOoLAio=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Zokirov.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WIN-SPKS0MCPOF1\user" issuerKeyHash="bfc42e62a573f09ee0092010370adc1677c09b7b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4D4MS6Df/rpikqrH5NnOk/C4onh97OD8v6uBkZGhL0s=</DigestValue></Reference></SignedInfo><SignatureValue>G/j5ciW7padAwrr9jMxEAj412U/7tOaAp1+7RweQ+zk7ytg8SVEg8cKUlyIXDvbt3+pdKvIeaCaSaAhsv9DIrRr/EE7s5ePaOPfHCJWZFDr/v4uquJaoEFQNnaZZNoCA4o176tfpXkcjTWqQ+vr4JoletIlXWCEmz+soylh5e8c=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vPUBpKS06BmJRcWdal/ihXa841SQMn2SvhF+W4bH9WZRNstVpiK2aZzpYSFljyt2EZza5UzCDDtAx7rdCLGD5oAPHCU7Q9lQIJbXMEWfsrI4Dbb1JNBQB9DJIcjPj5N5bpWNi23WVtYbeyckAifFvlew86j2auLrDt4OBdUH80U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4b2fa1919181abbffce0ec7d78a2b8f093ced9e4c7aa9262bafedfa04b0c3ee0" Description="" Url=""><as:assemblyIdentity name="Zokirov.exe" version="1.0.0.0" publicKeyToken="641ed2ea4c02d0f5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WIN-SPKS0MCPOF1\user</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SHO/OBApSAn+wppWCAKVec3534tlbuFGYKTyUrEbrH4=</DigestValue></Reference></SignedInfo><SignatureValue>F/gIL3z387quSMb21mEEvoUNYag9bdmatMRu13rsj3f2KeS6iQS47IFh7bKxFnH/R+rZWPsqrNURffthemNowLmYO4hyDJFR0uxeoAfFQKm15POiigytAtxgxEvc20lJg3IiEW4voEk2KiM85FjAlr1gmwRh+txfCW6Wff3ZDBY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vPUBpKS06BmJRcWdal/ihXa841SQMn2SvhF+W4bH9WZRNstVpiK2aZzpYSFljyt2EZza5UzCDDtAx7rdCLGD5oAPHCU7Q9lQIJbXMEWfsrI4Dbb1JNBQB9DJIcjPj5N5bpWNi23WVtYbeyckAifFvlew86j2auLrDt4OBdUH80U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQLNxsId3qVoZOl74yBl8/vjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAVwBJAE4ALQBTAFAASwBTADAATQBDAFAATwBGADEAXAB1AHMAZQByMB4XDTIzMDUxMzA1NDExM1oXDTI0MDUxMjExNDExM1owMzExMC8GA1UEAx4oAFcASQBOAC0AUwBQAEsAUwAwAE0AQwBQAE8ARgAxAFwAdQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvPUBpKS06BmJRcWdal/ihXa841SQMn2SvhF+W4bH9WZRNstVpiK2aZzpYSFljyt2EZza5UzCDDtAx7rdCLGD5oAPHCU7Q9lQIJbXMEWfsrI4Dbb1JNBQB9DJIcjPj5N5bpWNi23WVtYbeyckAifFvlew86j2auLrDt4OBdUH80UCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAsxZFViREx4iDW6S95+oxiqL05O9DkAAN0658GIKM0N+33TUXEGU/jhp38zsqP/jRfQPZzfv7o2OClZDrLd9XZ0x5Kb7DJZ5mBu3CNdQSTc/oOF+KXPYYr8xwbQA6fjxTfEBtnLNXKHQHitQzFMKkngNOmszMsNIukyq4ciuYAxg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
